@@ -1,1 +1,65 @@
 ﻿/*standardCSS för OH-gruppens glosor*/
+
+body {
+	margin: 0px;
+	font-family:"Verdana";
+}
+
+
+
+#navigator {
+	background-color: #536878;
+	color: white;
+	text-decoration:none;
+}
+
+#navigator div { /*Alla divs kommer visas på rad*/
+	
+}
+
+#navbar { 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	width: 80em;
+}
+
+#navbar div {
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+/*innehåller loggadiv och listadiv*/
+
+#logga {
+	display:inline;
+}
+
+#OH {
+	height: 4em;
+	padding:0.3em;
+}
+
+#navigationslänkar {
+	display:inline;
+}
+
+#navigator li {
+	display:inline;
+	padding:1em;
+}
+
+#navigator a:link, a:visited {
+	color: white;
+	text-decoration:none;
+}
+
+#navigator a:hover {
+	color: #888888;
+}
+
+#navigator a:active {
+	color: #000000;
+	text-decoration:underline;
+}
