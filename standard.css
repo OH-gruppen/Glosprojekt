@@ -3,28 +3,31 @@
 body {
 }
 
-#navigator {
-	background-color: #345672;
+#nav1 {
+	margin:0px;
+	background-color:#1adada;
 }
 
-#navbar {
-	background-color: #141672; /*För att skilja elementen åt*/
-	margin:auto;
-	width:50em;
+#nav2 {
+	width:80em;
+	background-color:#ae45fe;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-#logga, #logga li {
+#logga, #bild {
+	height:4em;
+}
+
+#logga, #navLänkar {
 	display:inline;
 }
 
-#OH {
-	height:3em;
+#navLänkar {
+	margin-top:3em;
+	margin-bottom:3em;
 }
 
-#navigationslänkar, #navigationslänkar li {
+#navLänkar li {
 	display:inline;
-}
-
-#logga, #navigationslänkar {
-	height:3em;
 }
