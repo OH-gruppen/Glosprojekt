@@ -1,33 +1,40 @@
 ﻿/*standardCSS för OH-gruppens glosor*/
 
 body {
-}
-
-#nav1 {
+	font-family:Verdana;
+	font-size:20px;
 	margin:0px;
-	background-color:#1adada;
+	background-color:black;
 }
 
-#nav2 {
-	width:80em;
-	background-color:#ae45fe;
-	margin-left:auto;
+#helaNaven {
+	background-color:grey;
+}
+
+#contentNav {
+	width:40em;
 	margin-right:auto;
+	margin-left:auto;
+	background-color:green;
 }
 
-#logga, #bild {
-	height:4em;
+#loggaDiv {
+	background-color:red;
 }
 
-#logga, #navLänkar {
-	display:inline;
+#navLänkarDiv {
+	background-color:blue;
 }
 
-#navLänkar {
-	margin-top:3em;
-	margin-bottom:3em;
+#loggaDiv, #navLänkarDiv {
+	
+	float:left;
 }
 
 #navLänkar li {
 	display:inline;
+}
+
+#bild {
+	height:3em;
 }
